@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+
+
+    <TextView
+        android:id="@+id/pop_computer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="待支付"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pop_financial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已支付"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pop_manage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已取消"
+        android:textSize="20sp" />
+
+</LinearLayout>
